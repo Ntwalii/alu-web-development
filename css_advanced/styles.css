@@ -1,0 +1,258 @@
+body{
+    margin: 0px;
+}
+#same-background{
+background-image: url(images/background.png);
+background-size: cover;
+background-repeat: no-repeat;
+}
+header{
+    display: flex;
+    flex-direction: row;
+}
+#logo{
+    margin-left: 171.59px;
+    margin-top: 35.02px 
+}
+#navbar{
+    margin-top: 37px;
+    margin-left: 45%;
+
+    }
+#navbar a{
+    color: #FFF;
+    font-size: 12px;
+    padding-right: 25px;
+    text-decoration: none;
+    font-weight: 800;
+}
+.sec1{
+    text-align: center;
+}
+.sec1 h1{
+    color: #FFF;
+    font-size: 120px;
+    font-weight: bold;
+    margin-bottom: 0px;
+}
+.sec1 p span{
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+}
+.sec1 button{
+    margin-top: 30px;
+    height: 44px;
+    width: 162px;
+    border-radius: 22px;
+    background-color: #C271FF;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+    border: none;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 700;
+
+}
+#pros{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    width: 100%;
+}
+#pros div{
+    margin-left: 50px;
+    margin-right: 50px;
+    text-align: center;
+}
+.pros2{
+    margin-top: 300px;
+    color: #FFF;
+    padding-bottom: 100px;
+}
+.pros2 h2 span{
+    color: #C271FF;
+}
+.pros2 h2{
+    font-size: 32px;
+    font-weight: 400;
+    margin-bottom: 150px;
+}
+.pros2 p{
+    font-size: 16px;
+    font-weight:100;
+}
+
+#quote{
+    padding: 80px 260px; 
+    display: flex;
+    flex: 2;
+    background-color: #C271FF;   
+    color: #FFF;
+}
+#quote img{
+    height: 80%;
+}
+#quote p{
+    margin-left: 40px;
+    font-size: 22px;
+}
+#quote blockquote{
+    font-size: 22px;
+    margin-top:10px;
+}
+
+#videos h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    color: #071629;
+    margin-top:100px;
+    margin-bottom: 70px;
+}
+#videos span{
+    color: #C271FF;
+    font-weight: 900;
+}
+
+#videoshub{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    width: 100%;
+}
+#author{
+    display: flex;
+}
+#author img{
+    width: 30px;
+    height: 30px;
+}
+#author h2{
+    font-size: 14px;
+    font-weight: bold;
+    color: #C271FF;
+    margin-left: 15px;
+}
+#singlevid{
+    width: 255px;
+    margin-left: 13px;
+    margin-right: 13px;
+}
+#singlevid h2{
+    font-size: 16px;
+    text-align: left;
+    font-weight: 900;
+}
+#singlevid p{
+    font-size: 14px;
+    text-align: left;
+    color: #707377;
+}
+#rating{
+    display: flex;
+    place-items:center;
+}
+#rating p{
+    margin-left: 100px;
+    color: #C271FF;
+}
+#same-padding{
+    padding: 10px;
+}
+#membership h1{
+    text-align: center;
+    font-size: 32px;
+    font-weight: 400;
+    color: #FFF;
+    margin-bottom: 70px;
+}
+#membership{
+    padding-top:50px;
+    background-color: #071629;
+    text-align: center;
+}
+#membership span{
+    color: #C271FF;
+    font-weight: 900;
+}
+#membership-cards{
+    display: flex;
+    flex: 1;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+}
+#membership-card{
+    width: 257px;
+    color: #FFF;
+}
+#membership-card h2{
+font-size: 18px;
+font-weight: 800;
+}
+#membership-card p{
+    font-size: 14px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-weight: 200;
+}
+#membership button{
+    margin-top: 80px;
+    margin-bottom: 50px;
+    height: 44px;
+    width: 162px;
+    border-radius: 22px;
+    background-color: #C271FF;
+    box-shadow: 0px 2px 20px 0px rgba(0, 0, 0, 0.50);
+    border: none;
+    color: #FFF;
+    font-size: 12px;
+    font-weight: 700;
+}
+#FAQ{
+    padding-left:200px;
+    padding-right:200px;
+}
+#FAQ h1{
+text-align: center;
+font-size: 60px;
+font-weight: 100;
+}
+#FAQs{
+    display: flex;
+}
+#oneFAQ{
+width: 100%;
+margin-left: 80px;
+margin-right: 80px;
+margin-bottom: 60px;
+}
+#FAQ h2{
+    font-size: 18px;
+    margin-bottom: 35px;
+}
+#FAQ p{
+    font-size: 14px;
+    color: #707377;
+}
+footer{
+    background-color: #071629;
+    padding: 80px 150px 20px;
+    text-align: center;
+}
+#upperfooter{
+    display: flex;
+}
+#social-icons{
+    margin-left: 700px;
+}
+#social-icons img{
+    margin-left: 15px;
+}
+footer p{
+    margin-top:80px;
+    color:#707377;
+    font-size: 12px;
+}
